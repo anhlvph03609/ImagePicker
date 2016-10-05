@@ -50,7 +50,7 @@ UINavigationControllerDelegate, UITextFieldDelegate {
     @IBAction func btnSave(_ sender: AnyObject) {
         let alert = UIAlertController()
         alert.title = "Save"
-        alert.message = "Do you want to save this photo ? "
+        alert.message = "Do you want to save this photo rewerwe? "
         alert.addAction(UIAlertAction(title: "Yes", style: .default, handler:  {(action: UIAlertAction!) in
             let imageData = UIImageJPEGRepresentation(self.imagePicked.image!, 1)
             let compressedJPGImage = UIImage(data: imageData!)
